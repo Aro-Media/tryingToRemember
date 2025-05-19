@@ -11,7 +11,7 @@ const calculateDoggieAge = humanAge => {
   let doggieAge = humanAge * 7;
 
   // 3. Update the result div's inner html to display the dog's age. Use string interpolation to create the message: "Your doggie is _________ years old in human years!"
-result.innerHTML = "Your doggie is " + doggieAge + " years old in human years!";
+result.innerHTML = "Your dog is " + doggieAge + " years old in human years!";
   
   
 }

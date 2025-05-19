@@ -1,9 +1,37 @@
-body{background:black;}
-.main{ width:400px;
-margin: 0 auto;}
-img{width:100%;}
-h1{color:white;}
+body {
+  background:#6e4036;
+}
+
+.main {
+  width:500px;
+  margin: 0 auto;
+}
+
+img {
+  width:100%;
+}
+
+h1 {
+  color:#d6b588;
+  
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
 
 .result {
-  color: white;
+  color: black;
+  font-size: 28px;
+}
+
+input {
+  background-color: #d6b588;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
 }
