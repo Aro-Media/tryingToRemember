@@ -18,20 +18,77 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-
+  text-align: center;
 }
 
 .result {
-  color: black;
+  color: #d6b588;
   font-size: 28px;
+  text-align: center;
+  
 }
 
 input {
   background-color: #d6b588;
 }
 
-.input {
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  
+}
+.buttons {
   display: flex;
   justify-content: center;
-  margin-left: 5px;
+  column-gap: 40px;
+  margin-bottom: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.clear {
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 15%;
+  border-color: #6e4036;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.equals {
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 15%;
+  border-color: #6e4036;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.input {
+  height: 30px;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 5%;
+  margin-top: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
